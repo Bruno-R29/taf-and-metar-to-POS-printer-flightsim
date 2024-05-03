@@ -1,4 +1,5 @@
 metar  get no print  doesnt send print request to POS
+
 metar imprfinal  sends print request
 
 This script fetches metar and taf  data for a given icao code, it uses tkinter to isert icao code.
@@ -11,8 +12,11 @@ win32print
 Functionality
 
 pip install tk
+
 pip install requests
+
 pip install pywin32
 
 run the script.
+
 Enter an ICAO code into the entry field clicl fetch metar to print the fetched data to the default printer.
